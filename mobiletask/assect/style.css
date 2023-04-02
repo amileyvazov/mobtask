@@ -1,0 +1,233 @@
+.hom{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 0% 3%;
+  list-style: none;
+}
+.row .hom a{
+text-decoration: none;
+padding:0px 10px;
+color: black; 
+}
+.row{ 
+  color: black;
+  align-items: center;
+}
+.row p{
+  padding: 0% 5%;
+}
+.dropbtn {
+font-size: 10px;
+}
+
+.dropdown {
+ position: relative;
+}
+
+.dropdown-content {
+ display: block;
+ position: absolute;
+ background-color: #f1f1f1;
+ width: 150px;
+ border-radius: 5%;
+ z-index: 1;
+ margin: 10% 10%;
+ padding: 10px 10px;
+}
+.dropdown-content a{
+  color:#ffff;
+  padding: 10px 10px;
+  text-decoration: none;
+
+}
+#navbar{
+  background-color: rgb(245, 245, 245);
+}
+  
+.dropdown-content a:hover {
+  background-color: #ddd;
+} 
+  .dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+.shop {
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  margin: 0% 25%;
+  font-size: 20px;
+  padding: 0px 10px;
+  border-radius:10%;
+ border: .5px solid black;
+ max-width: 10%;
+ height: 35px;
+ text-align: justify;
+}
+.shop a{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  padding: 2px 2px;
+  margin: 5px 5px;
+}
+.shop i{
+  color: rgb(10, 10, 10);
+  border-color: white;
+}
+.shop a:hover{
+  color: white;
+}
+.shop:hover {
+ background-color: black;
+}
+.shop i:hover{
+color: white;
+border-color: white;
+}
+.product img{
+  max-width: 80%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+  align-items: center;
+  margin:15% 10%;
+  align-items: center;
+}
+.picture{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.item{
+  width: 45%;
+  align-items: center;
+  padding: 5% 0%;
+  font-size: 30px;
+}
+.item p{
+  margin:50px 0px;
+  color: gray;
+  font-size: 35px;
+}
+.item input{
+  width:40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10%;
+  border-color: rgb(241, 241, 241);
+  align-items: center;
+}
+.item button{
+  width: 25%;
+  height: 40px;
+  border-radius: 10%;
+  background-color: white;
+  align-items: center;
+  padding: 0px 5px;
+}
+.item button:hover{
+  background-color: black;
+}
+.item button a{
+  text-decoration: none;
+  color: black;
+}
+.item button a:hover{
+  color: white;
+}
+.item button i{
+  font-size: 20px;
+}
+.item i:hover{
+  color:#ffffff;
+}
+.fancy{
+  border:1px solid grey;
+  text-align:center;
+  max-width: 18%;
+  max-height:100%;
+  margin:0% 2% 0% 8%;
+}
+.fancy img{
+  width: 100%;
+}
+.fancy h1{
+  padding: 5% 5%;
+}
+.special{
+  border:1px solid grey;
+  text-align:center;
+  max-width: 18%;
+  max-height: 100%;
+  margin:0% 2% 0% 2%;
+}
+.special img{
+  width: 100%;
+}
+.special h1{
+  padding: 5% 5%;
+}
+.sale{
+  border:1px solid grey;
+  text-align:center;
+  max-width: 18%;
+  height: 100%;
+  margin:0% 2% 0% 2%;
+}
+.sale img{
+  width: 100%;
+}
+.sale h1{
+  padding: 5% 5%;
+}
+.popular{
+  border:1px solid grey;
+  text-align:center;
+  max-width: 18%;
+  max-height:100%;
+  margin:0% 2% 0% 2%;
+}
+.popular img{
+  width: 100%;
+}
+.popular h1{
+  padding: 5% 5%;
+}
+.number{
+  margin:10%;
+  padding: 5% 5%;
+}
+.number1{
+  margin: 0% 10% 20% 10%;
+}
+.rel{
+  margin:0% 6%;
+}
+.star{
+  color: yellow;
+  font-size: 15px;
+}
+.button{
+  border: 1px solid;
+  border-radius: 8%;
+  width: 100%;
+  height:;
+  margin: 0% 5% 5% 5%;
+  padding: 2% 5%;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.button:hover{
+  background-color: black;
+  color:white;
+}
+.end{
+  text-align:center;
+  background-color:black;
+  width: 100%;
+  height: 100px;
+  color: white;
+  padding: 2%;
+  margin: 3% 0% 0%;
+}
